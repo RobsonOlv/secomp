@@ -1,0 +1,248 @@
+{
+    "project": "Semana da Computação",
+    "about": {
+        "title": "Transpondo fronteiras entre a universidade e o mercado.",
+        "brief": "A Secomp UFPE é um evento anual que visa promover um ambiente de aprendizado, discussão e troca de experiências, abrangendo desde temas técnicos e especializados até discussões sobre as implicações sociais da tecnologia."
+    },
+    "schedule": [
+        {
+            "day": "segunda",
+            "date": 17,
+            "events": [
+                {
+                    "title": "Abertura",
+                    "description": "",
+                    "location": "Auditório do Centro de Informática",
+                    "begin": "2023-07-17T16:30-03:00",
+                    "end": "2023-07-17T18:00-03:00",
+                    "speaker": ""
+                },
+                {
+                    "title": "Robôs Sociais",
+                    "location": "Auditório do Centro de Informática",
+                    "begin": "2023-07-18T10:30-03:00",
+                    "end": "2023-07-18T12:00-03:00",
+                    "type": "Talk",
+                    "speaker": "Nome Sobrenome",
+                    "photo": "",
+                    "resume": ""
+                }
+            ]
+        },
+        {
+            "day": "terça",
+            "date": 18,
+            "events": [
+                {
+                    "title": "A Confirmar",
+                    "description": "Em breve...",
+                    "location": "Auditório do Centro de Informática",
+                    "begin": "2023-07-18T08:30-03:00",
+                    "end": "2023-07-18T10:00-03:00",
+                    "type": "Minicurso",
+                    "speaker": "Nome Sobrenome"
+                },
+                {
+                    "title": "O que uma pessoa desenvolvedora precisa saber sobre acessibilidade?",
+                    "location": "Auditório do Centro de Informática",
+                    "begin": "2023-07-18T10:30-03:00",
+                    "end": "2023-07-18T12:00-03:00",
+                    "type": "Talk",
+                    "speaker": "Patrícia Gusmão",
+                    "job": "Engenheira de Software na Softex",
+                    "photo": "",
+                    "resume": ""
+                },
+                {
+                    "title": "A Confirmar",
+                    "description": "Em breve...",
+                    "location": "Auditório do Centro de Informática",
+                    "begin": "2023-07-18T14:00-03:00",
+                    "end": "2023-07-18T15:30-03:00",
+                    "type": "Minicurso",
+                    "speaker": "Nome Sobrenome"
+                },
+                {
+                    "title": "A Confirmar",
+                    "description": "Em breve...",
+                    "location": "Auditório do Centro de Informática",
+                    "begin": "2023-07-18T16:00-03:00",
+                    "end": "2023-07-18T17:30-03:00",
+                    "type": "Minicurso",
+                    "speaker": "Nome Sobrenome"
+                }
+            ]
+        },
+        {
+            "day": "quarta",
+            "date": 19,
+            "events": [
+                {
+                    "title": "A Confirmar",
+                    "description": "Em breve...",
+                    "location": "Auditório do Centro de Informática",
+                    "begin": "2023-07-19T08:30-03:00",
+                    "end": "2023-07-19T10:00-03:00",
+                    "speaker": "Nome Sobrenome"
+                },
+                {
+                    "title": "A Confirmar",
+                    "description": "Em breve...",
+                    "location": "Auditório do Centro de Informática",
+                    "begin": "2023-07-19T10:30-03:00",
+                    "end": "2023-07-19T12:00-03:00",
+                    "speaker": "Nome Sobrenome"
+                },
+                {
+                    "title": "A Confirmar",
+                    "description": "Em breve...",
+                    "location": "Auditório do Centro de Informática",
+                    "begin": "2023-07-19T14:00-03:00",
+                    "end": "2023-07-19T15:30-03:00",
+                    "speaker": "Nome Sobrenome"
+                },
+                {
+                    "title": "A Confirmar",
+                    "description": "Em breve...",
+                    "location": "Auditório do Centro de Informática",
+                    "begin": "2023-07-19T16:00-03:00",
+                    "end": "2023-07-19T17:30-03:00",
+                    "speaker": "Nome Sobrenome"
+                }
+            ]
+        },
+        {
+            "day": "quinta",
+            "date": 20,
+            "events": [
+                {
+                    "title": "A Confirmar",
+                    "description": "Em breve...",
+                    "location": "Auditório do Centro de Informática",
+                    "begin": "2023-07-20T08:30-03:00",
+                    "end": "2023-07-20T10:00-03:00",
+                    "speaker": "Nome Sobrenome"
+                },
+                {
+                    "title": "A Confirmar",
+                    "description": "Em breve...",
+                    "location": "Auditório do Centro de Informática",
+                    "begin": "2023-07-20T10:30-03:00",
+                    "end": "2023-07-20T12:00-03:00",
+                    "speaker": "Nome Sobrenome"
+                },
+                {
+                    "title": "A Confirmar",
+                    "description": "Em breve...",
+                    "location": "Auditório do Centro de Informática",
+                    "begin": "2023-07-20T14:00-03:00",
+                    "end": "2023-07-20T15:30-03:00",
+                    "speaker": "Nome Sobrenome"
+                },
+                {
+                    "title": "A Confirmar",
+                    "description": "Em breve...",
+                    "location": "Auditório do Centro de Informática",
+                    "begin": "2023-07-20T16:00-03:00",
+                    "end": "2023-07-20T17:30-03:00",
+                    "speaker": "Nome Sobrenome"
+                }
+            ]
+        },
+        {
+            "day": "sexta",
+            "date": 21,
+            "events": [
+                {
+                    "title": "A Confirmar",
+                    "description": "Em breve...",
+                    "location": "Auditório do Centro de Informática",
+                    "begin": "2023-07-21T08:30-03:00",
+                    "end": "2023-07-21T10:00-03:00",
+                    "speaker": "Nome Sobrenome"
+                },
+                {
+                    "title": "A Confirmar",
+                    "description": "Em breve...",
+                    "location": "Auditório do Centro de Informática",
+                    "begin": "2023-07-21T10:30-03:00",
+                    "end": "2023-07-21T12:00-03:00",
+                    "speaker": "Nome Sobrenome"
+                },
+                {
+                    "title": "Encerramento",
+                    "description": "",
+                    "location": "Auditório do Centro de Informática",
+                    "begin": "2023-07-21T14:00-03:00",
+                    "end": "2023-07-21T15:30-03:00",
+                    "speaker": ""
+                }
+            ]
+        }
+    ],
+    "sponsor": [
+        {
+            "title": "Realização",
+            "logos": [
+                {
+                    "url": "pet.svg",
+                    "page": "https://pet.cin.ufpe.br/"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dkbuneg9h/image/upload/v1688836777/secomp-2023/logos/DA_colorido.svg",
+                    "page": "https://da.cin.ufpe.br/"
+                },
+                {
+                    "url": "cin.svg",
+                    "page": "https://portal.cin.ufpe.br/"
+                }
+            ]
+        },
+        {
+            "title": "Patrocínio",
+            "logos": [
+                {
+                    "url": "https://cdn-images-1.medium.com/v2/resize:fit:724/1*mRme0B25xZ00nxR8W8_ECg@2x.png",
+                    "page": "https://www.valcann.com.br/"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dkbuneg9h/image/upload/v1688771771/secomp-2023/logos/beyond_colorido.svg",
+                    "page": "https://beyondcompany.com.br/"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dkbuneg9h/image/upload/v1688771693/secomp-2023/logos/neurotech-colorido.svg",
+                    "page": "https://www.neurotech.com.br/"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dkbuneg9h/image/upload/v1688837402/secomp-2023/logos/EDS_black.svg",
+                    "page": "https://www2.extremedigital.com.br/carreiras/"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dkbuneg9h/image/upload/v1688837361/secomp-2023/logos/Incognia_colorido.svg",
+                    "page": "https://www.incognia.com/"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dkbuneg9h/image/upload/v1688836550/secomp-2023/logos/awsUG_colorido.svg",
+                    "page": ""
+                }
+            ]
+        },
+        {
+            "title": "Apoio",
+            "logos": [
+                {
+                    "url": "https://res.cloudinary.com/dkbuneg9h/image/upload/v1688836608/secomp-2023/logos/Tempest_colorido.svg",
+                    "page": "https://www.tempest.com.br/"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dkbuneg9h/image/upload/v1688755771/secomp-2023/logos/encora_colorido.svg",
+                    "page": "https://www.encora.com/"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dkbuneg9h/image/upload/v1688753935/secomp-2023/logos/acqio-logo.svg",
+                    "page": "https://acqio.com.br/"
+                }
+            ]
+        }
+    ]
+}

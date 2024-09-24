@@ -1,0 +1,338 @@
+.card {
+    position: relative;
+    border-radius: 32px;
+    border: 2px solid #FDF8F5;
+    background: transparent;
+    padding-bottom: 44px;
+    width: 160px;
+    height: 420px;
+    margin-bottom: 24px;
+    overflow: hidden;
+    color: #FDF8F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding-inline: 8px;
+    padding-top: 8px;
+    padding-bottom: 0;
+    height: 100%;
+}
+
+.card-avatar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 0;
+    height: auto;
+}
+
+.card-avatar-box {
+    width: 48px;
+    height: 48px;
+}
+
+.card-avatar-background {
+    width: 165px;
+}
+
+.avatar-empty-image {
+    margin-top: 0;
+}
+
+.disabled-link {
+    pointer-events: none;
+    cursor: default;
+}
+
+.card-avatar-section {
+    height: 24px;
+    width: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card-text {
+    text-align: center;
+    margin-top: 8px;
+}
+
+.card-title {
+    font-size: 11px;
+    line-height: 14px;
+    font-weight: 700;
+    text-align: center;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-speaker-info {
+    margin-top: 8px;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+    white-space: pre-line;
+    margin-bottom: 0;
+}
+
+.card-info {
+    font-size: 11px;
+    line-height: 14px;
+    font-weight: 200;
+    text-align: right;
+    margin-top: 8px;
+    width: 100%;
+}
+
+.empty-icon {
+    height: auto;
+    width: 64px;
+}
+
+.card-type-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: end;
+    align-items: center;
+}
+
+.card-type {
+    margin: 0;
+    border-radius: 4px;
+    padding-inline: 12px;
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 800;
+    width: 68px;
+    text-align: center;
+}
+
+.minicourse {
+    color: #FDF8F5;
+    border: 1px solid #EF03AF;
+    background: #EF03AF;
+}
+
+.talk {
+    color: #000000;
+    border: 1px solid #2ACEB1;
+    background: #2ACEB1;
+}
+
+.card-hour {
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-top: 4px;
+}
+
+.card-action {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-action h1 {
+    font-size: 38px;
+    background: white;
+    color: black;
+    mix-blend-mode: multiply;
+}
+
+.card-subscribe {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    height: 40px;
+    transition: bottom 0.3s;
+    cursor: pointer;
+}
+
+.card-subscribe-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    height: 40px;
+    transition: bottom 0.3s;
+}
+
+.error-container {
+    position: absolute;
+    background-color: #FB0000;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-inline: 8px;
+    box-sizing: border-box;
+    font-size: 11px;
+    transition: ease-out 0.3s;
+}
+
+
+@media screen and (min-width: 40em) {
+    .card {
+        width: 200px;
+        height: 490px;
+    }
+
+    .card-avatar-background {
+        margin-top: 0;
+    }
+
+    .card-title {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .card-avatar-box {
+        width: 64px;
+        height: 64px;
+    }
+
+    .card-avatar-background {
+        width: 205px;
+    }
+
+    .avatar-empty-image {
+        margin-top: 0;
+    }
+
+    .error-container {
+        font-size: 12px;
+    }
+    
+}
+
+@media screen and (min-width: 52em) {
+    .card {
+        padding-bottom: 12px;
+    }
+
+    .card-subscribe {
+        display: flex;
+        cursor: pointer;
+    }
+
+    .card-subscribe-mobile {
+        display: none;
+    }
+
+    .error-container {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 64em) {
+    .card {
+        flex-direction: row;
+        padding-inline: 0px;
+        padding-block: 0px;
+        width: 345px;
+        height: 210px;
+        margin-bottom: 24px;
+
+    }
+
+    .card-avatar {
+        width: 45%;
+    }
+
+    .card-avatar-background {
+        width: 150px;
+        margin-top: 0;
+    }
+
+    .avatar-empty-image {
+        width: 215px;
+    }
+
+    .card-container {
+        width: 55%;
+        padding-left: 12px;
+        padding-right: 16px;
+        height: auto;
+        padding-bottom: 8px;
+    }
+
+    .card-avatar-section {
+        height: 54px;
+        width: 53px;
+        display: flex;
+        align-items: flex-end;
+        top: 36px;
+        left: 0;
+    }
+
+    .card-text {
+        width: 100%;
+        text-align: initial;
+        height: auto;
+        margin-top: 0;
+        padding-top: 12px;
+    }
+
+    .card-title {
+        width: 100%;
+        text-align: initial;
+        font-size: 16px;
+        line-height: 17px;
+        font-weight: 700;
+        padding-inline: 0;
+    }
+
+    .card-speaker-info {
+        font-size: 12px;
+        line-height: 15px;
+        white-space: pre-line;
+    }
+
+    .card-info {
+        text-align: right;
+        margin-top: 0;
+    }
+
+    .empty-icon {
+        width: 86px;
+    } 
+
+    .card-type-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .card-type {
+        margin-block: 1em;
+    }
+
+    .card-action h1 {
+        font-size: 64px;
+    }
+
+    .error-container {
+        font-size: 16px;
+    }
+}

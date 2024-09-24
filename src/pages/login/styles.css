@@ -1,0 +1,229 @@
+.loginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding-block: 24px;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background-image: url("../../assets/insc-bg.png");
+    background-color: black;
+}
+
+
+.Loginform {
+    background: #FDF8F5;
+    border-radius: 40px;
+    box-sizing: border-box;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Loginform-loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Loginform-loading > p {
+    color: #FDF8F5;
+    background: #460FE1;
+    padding-block: 4px;
+    padding-inline: 8px;
+    border-radius: 8px;
+}
+
+.titulo {
+    width: 100%;
+    text-align: center;
+    color: #460FE1;
+    font-family: Inter, serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+.titulo h1{
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+
+.titulo h2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+
+.filled-button {
+    background-color: #F102AE;
+    color: #ffffff;
+    padding: 6px 24px;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    width: 120px;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#subscribe-redirect {
+    text-decoration: underline;
+    margin-top: 4px;
+
+}
+
+#subscribe-redirect:hover {
+    text-decoration: underline;
+    color: #460FE1;
+    margin-top: 4px;
+
+}
+
+.inputs-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 8px;
+}
+
+.inputs-container > label {
+    font-family: Inter, serif;
+    font-weight: bold;
+    color: #460FE1;
+    font-size: 15px;
+    margin-bottom: 8px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.loginContainer span {
+    color: #F102AE;
+    font-size: 11px;
+    margin-left: 10px;
+    font-family: Inter, serif;
+    margin-top: 2px;
+}
+
+#subscribe-redirect:hover {
+    color: #460FE1;
+    margin-top: 0;
+}
+
+.inputs-container input {
+    width: calc(100% - 20px);
+}
+
+
+@media screen and (max-width: 640px) {
+    .Loginform {
+        padding: 18px 28px;
+        width: 85%;
+        max-width: 500px;
+    }
+
+    .titulo > h1 {
+        font-size: 28px;
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+
+    .titulo > h2 {
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+
+    .inputs-container > label {
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .inputs-container.last {
+        margin-bottom: 32px;
+    }
+
+    .buttons-container {
+        margin-bottom: 8px;
+        font-weight: bold;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #subscribe-redirect {
+        margin-top: 0;
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .Loginform {
+        padding: 24px 54px;
+        width: 85%;
+        max-width: 500px;
+    }
+
+    .titulo > h1 {
+        font-size: 35px;
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+
+    .titulo > h2 {
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+
+    .inputs-container > label {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .inputs-container.last {
+        margin-bottom: 45px;
+    }
+
+    .buttons-container {
+        margin-bottom: 12px;
+        font-weight: bold;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #subscribe-redirect {
+        margin-top: 0;
+        font-size: 12px;
+    }
+}
+
+.login-error {
+    text-align: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    color: #FB0000;
+    font-weight: bold;
+    padding: 10px 0;
+}
+

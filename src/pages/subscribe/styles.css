@@ -1,0 +1,312 @@
+.subscribeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding-block: 24px;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background-image: url("../../assets/insc-bg.png");
+    background-color: black;
+}
+
+.Subscribeform {
+    width: 80%;
+    background: #FDF8F5;
+    border-radius: 40px;
+    box-sizing: border-box;
+    padding: 12px;
+}
+
+.form-group > h1 {
+    color: #460FE1;
+    font-family: Inter, serif;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.register-successful-title {
+    font-size: 12px;
+    text-align: center;
+}
+
+.register-successful-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register-successful-highlight {
+    color: #F102AE;
+}
+
+.register-successful-return-message {
+    font-size: 12px;
+    text-align: center;
+}
+
+.drop-down-list{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+
+.nome-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+input[type="text"] {
+    font-family: Sora, sans-serif;
+}
+
+.nome-container > label {
+    margin-left: 10px;
+    font-family: Inter, serif;
+    font-weight: bold;
+    color: #460FE1;
+    font-size: 15px;
+}
+
+.emailecpf-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.emailecpf-container > label {
+    margin-left: 10px;
+    font-family: Inter, serif;
+    font-weight: bold;
+    color: #460FE1;
+    font-size: 15px;
+}
+
+.drop-down-list > label {
+    margin-left: 10px;
+    font-family: Inter, serif;
+    font-weight: bold;
+    color: #460FE1;
+    font-size: 15px;
+}
+
+.form-group span {
+    color: #F102AE;
+    font-size: 11px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.form-group select {
+    margin-bottom: 0 !important;
+    font-family: Inter, serif;
+}
+
+::placeholder {
+    color: #BBBBBB;
+}
+
+.cpf-container {
+    width: 35%;
+    margin-right: 0 !important;
+}
+
+.email-container {
+    width: 60%;
+}
+
+input {
+    border: 0.85px solid #460FE1;
+    border-radius: 15px;
+    padding: 6px 10px;
+    background-color: #FDF8F5;
+}
+
+#campos-email-cpf{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+#drop-down-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.promocionais-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+}
+
+.promocionais-container > label {
+    font-family: Inter, serif;
+    font-weight: bold;
+    color: #460FE1;
+    font-size: 13px;
+}
+
+.termos-container > label {
+    font-family: Inter, serif;
+    font-weight: bold;
+    color: #460FE1;
+    font-size: 13px;
+}
+
+.termos-container > label > a {
+    text-decoration: underline;
+}
+
+.filled-button {
+    background-color: #F102AE;
+    color: #ffffff;
+    padding: 6px 24px;
+    border: none;
+    border-radius: 20px;
+    font-size: 12.7px;
+    font-weight: 700;
+    width: 120px;
+}
+
+.filled-button:disabled {
+    background-color: #BBBBBB;
+    cursor: no-drop;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.form-group select {
+    padding: 6px 10px;
+    border-radius: 20px;
+    border: 0.85px solid #460FE1;
+    background-color: #FDF8F5;
+    font-family: 'Sora', sans-serif;
+}
+
+#promocionais {
+    appearance: none;
+    border-radius: 50%;
+    outline: none;
+    border: 0.85px solid #460FE1;
+    width: 20px;
+    height: 20px;
+    padding: 0 !important;
+}
+
+#promocionais:checked {
+    background-color: #460FE1;
+}
+
+@media screen and (max-width: 639px) {
+    .Subscribeform {
+        padding: 28px 42px;
+    }
+
+    .nome-container {
+        margin-bottom: 20px;
+    }
+
+    .cpf-container {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .email-container {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .drop-down-list {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .promocionais-container {
+        margin-bottom: 40px;
+    }
+
+    .termos-container {
+        margin-bottom: 40px;
+    }
+
+    .filled-button {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .Subscribeform {
+        padding: 28px 42px;
+    }
+
+    .register-successful-title {
+        font-size: 18px;
+    }
+
+    .nome-container {
+        margin-bottom: 20px;
+    }
+
+    #campos-email-cpf{
+        flex-direction: row;
+    }
+
+    .emailecpf-container {
+        margin-bottom: 20px;
+    }
+
+    #drop-down-container {
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+
+    .drop-down-list {
+        margin-right: 8px;
+    }
+
+    .promocionais-container {
+        margin-bottom: 24px;
+    }
+
+    .termos-container {
+        margin-bottom: 24px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .Subscribeform {
+        width: 800px;
+    }
+}
+
+.subs-error {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    color: red;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.inter {
+    font-family: Inter, serif;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.blue {
+    color: #460FE1;
+}

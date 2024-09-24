@@ -1,0 +1,21 @@
+.container-copyright {
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    color: #FDF8F5;
+}
+
+.container-copyright p {
+    font-size: .8rem;
+}
+
+@media (max-width: 426px) {
+    .container-copyright {
+        padding: 1rem;
+    }
+    .container-copyright p {
+        text-align: center;
+    }
+}

@@ -1,0 +1,78 @@
+footer {
+    background: rgba(70,15,225);
+}
+
+.about-gradient {
+    background: linear-gradient(
+        20deg,
+        rgba(42,206,177, 0.5) 13%,
+        rgba(255, 0, 0, 0) 54%
+      ), linear-gradient(90deg, rgba(0, 255, 0, 0) 70%, rgba(241,2,174,0.5) 110%);
+    color: #FDF8F5;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    padding: 2rem 9rem;
+}
+
+.container-footer-contact {
+    width: 50%;
+    height: 85%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 0 2rem;
+}
+
+.contact-titles p {
+    font-size: 1.5rem;
+}
+
+.contact-titles h3 {
+    margin: .3rem 0 1rem 0;
+    font-size: 1.7rem;
+}
+
+.container-footer-map {
+    width: 50%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-icons a {
+    display: flex;
+    height: 1.9rem;
+    align-items: center;
+}
+
+.contact-icons a p {
+    margin-left: .5rem;
+}
+
+.contact-adress {
+    margin-top: 1rem;
+    font-size: 12px;
+}
+
+@media (max-width: 768px) {
+    .about-gradient {
+        flex-direction: column;
+        height: auto;
+    }
+    .container-footer-contact {
+        width: 100%;
+        height: 17rem;
+    }
+    .container-footer-map {
+        height: 20rem;
+        width: 100%;
+    }
+}
+
+@media (max-width: 426px) {
+    .about-gradient {
+        padding: 2rem;
+    }
+}
